@@ -18,7 +18,7 @@ h1 {
     font-size: 40px;
 }
 .container {
-    background-color: #fff;
+    background-color: #5e3a3a;
     max-width: 500px;
     height: 85vh;
     border-left: 1px solid rgb(0, 0, 0);
@@ -51,7 +51,8 @@ h1 {
 .messageForm {
     position: sticky;
     bottom: 0px;
-    left: 37%;
+    left: 0;
+    margin: auto;
     max-width: 500px;
     height: 50px;
     display: flex;
@@ -71,4 +72,13 @@ h1 {
     margin: 0 10px 0 5px;
     border-radius: 5px;
     background-color: rgb(14, 126, 111);
+}
+
+.system-message {
+    color: #8b8b8b;
+    font-style: italic;
+    padding: 5px 10px;
+    margin: 5px auto 5px auto;
+    font-size: 18px;
+
 }
