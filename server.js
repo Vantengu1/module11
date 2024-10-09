@@ -7,7 +7,7 @@ wss.on('connection', (ws) => {
         let parseMessage;
         try {
             parseMessage = JSON.parse(message);
-            console.log('Получено сообщение:' .parseMessage);
+            console.log('Получено сообщение:' , parseMessage);
         } catch (e) {
             console.log('Получено некоректное сообщение');
             return
